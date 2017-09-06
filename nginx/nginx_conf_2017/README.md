@@ -53,8 +53,9 @@
     * Predictable life cycle
     * Upstream change acceptance
 
-# Application and API Security / Stepan Ilyin, Wallarm Co-founder
+# Application and API Security
 
+* Stepan Ilyin, Wallarm Co-founder
 * Free: mod_security WAF
   * Blocks top 10 OWASP
   * Simple
@@ -76,10 +77,10 @@
   * duplicate request to other backend, for processing
   * ```mirror``` directive
 * Bots and DDoS
-  * test_cookie module (github: kyprizel)
+  * [test_cookie module](https://github.com/kyprizel/testcookie-nginx-module)
 * Neural networks and machine learning
   * Bad and good requests look alike in logs
-  * SaveTheRbtz on github
+  * Github [SaveTheRbtz](https://github.com/SaveTheRbtz)
   * PyBrain
 * Code 444
   * Close connection, provide no response

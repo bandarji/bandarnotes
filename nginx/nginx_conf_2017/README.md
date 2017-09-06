@@ -25,3 +25,12 @@
 * NGINX Unit
 ** Application server for cloud-native services
 ** Multi-(language,stack,naming)
+** PHP, Go, Python with multi-version support
+** REST / JSON
+* NGINX Controller
+** Webapp Mission Control
+** Workflow automation and policy management
+** Multi-tenant and RBAC
+** Compliance and auditing
+** Monitoring / analytics
+** Front multiple cloud installations

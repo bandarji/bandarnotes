@@ -36,5 +36,19 @@
   * Monitoring / analytics
   * Front multiple cloud installations
   * Underdeveloped, but private betas coming, initial release in 2018q1
+  * GraphQL / GraphiQL
+  * Import existing configuration
 
-* Red Hat Senior Director of Product, Rich Sharples
+# Long Arc of Open Collaborative Innovation
+
+* Red Hat Senior Director of Product, Rich Sharples, [@richsharples](https://twitter.com/richsharples)
+  * Involved in over 1M OSS projects, not just 'a Linux company'
+  * Notable OSS Aquisitions
+    * CentOS 2014
+    * Ansible 2015
+    * 3Scale 2016
+  * What OSS gets wrong or does not do well
+    * User experience
+    * QA and integration
+    * Predictable life cycle
+    * Upstream change acceptance

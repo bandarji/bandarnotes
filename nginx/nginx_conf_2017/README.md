@@ -28,9 +28,10 @@
 ** PHP, Go, Python with multi-version support
 ** REST / JSON
 * NGINX Controller
-** Webapp Mission Control
+** Webapp Mission Control: benevolent, God's eye view of NGINX processing
 ** Workflow automation and policy management
 ** Multi-tenant and RBAC
 ** Compliance and auditing
 ** Monitoring / analytics
 ** Front multiple cloud installations
+** Underdeveloped, but private betas coming, initial release in 2018q1

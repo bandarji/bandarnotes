@@ -137,3 +137,14 @@
 * [ngx_lua_datadog](http://dtdg.co/nginx17-luadatadog)
 * [nginx-dogstatsd](http://dtdg.co/nginx17-dogstatsd)
 * [Other](http://dtdg.co/nginx17-awesome)
+
+# NGINX and IoT / MQTT
+
+* [Liam Crilly / @liamcrilly](https://twitter.com/liamcrilly), Director of Product Management, NGINX, Inc.
+* [MQTT](http://mqtt.org)
+
+# NGINX+ and Highly Available WebSockets in an Auto-Scaling AWS Environment
+
+* Patrick Synor, Technical Manager, Linux Operations, SolvIT Inc.
+* AWS did not support WebSocket until ALB in 2016
+* NGINX supported WebSocket since 2013

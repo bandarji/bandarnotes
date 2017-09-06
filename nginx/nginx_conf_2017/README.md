@@ -52,3 +52,42 @@
     * QA and integration
     * Predictable life cycle
     * Upstream change acceptance
+
+# Application and API Security / Stepan Ilyin, Wallarm Co-founder
+
+* Free: mod_security WAF
+  * Blocks top 10 OWASP
+  * Simple
+  * Signature-based
+  * Lots of false positives
+  * Tip: use public rules for monitoring, private for blocking
+  * Ivan Ristic's book "Modsecurity Handbook"
+* Free: naxsi
+  * Does not use signatures, but character patterns
+  * nxutil to manage rulesets
+  * Dumps to ELK
+* Commercial: Wallarm
+  * Machine learning adaptive security platform
+* Commercial: Signal Sciences
+* Repsheet
+  * Behavior monitoring (calls, GeoIP, etc)
+  * Interacts with Redis
+* NGINX Mirroring
+  * duplicate request to other backend, for processing
+  * ```mirror``` directive
+* Bots and DDoS
+  * test_cookie module (github: kyprizel)
+* Neural networks and machine learning
+  * Bad and good requests look alike in logs
+  * SaveTheRbtz on github
+  * PyBrain
+* Code 444
+  * Close connection, provide no response
+* Use ipset
+  * ipset -N ban iphash
+  * ipset -A xxx (from logs)
+* GeoIP
+  * ngx_http_geoip_module
+  * not accurate
+* Limit buffers, timeouts, etc
+  * Every resource has a limit

@@ -19,9 +19,10 @@
 
 # NGINX Product Announcements
 
-* NGINX Head of Product, Owen Gerrit
-* NGINX Chief Architect, Chris Stetson
-
+* Panel
+** NGINX Head of Product, Owen Gerrit
+** NGINX Chief Architect, Chris Stetson
+** NGINX Engineer, Rachael Paasov
 * NGINX Unit
 ** Application server for cloud-native services
 ** Multi-(language,stack,naming)
@@ -35,3 +36,5 @@
 ** Monitoring / analytics
 ** Front multiple cloud installations
 ** Underdeveloped, but private betas coming, initial release in 2018q1
+
+* Red Hat Senior Director of Product, Rich Sharples

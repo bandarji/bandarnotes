@@ -92,3 +92,47 @@
   * not accurate
 * Limit buffers, timeouts, etc
   * Every resource has a limit
+
+# Intel QuickAssist Technology / Payload Compression
+
+* Gordon McFadden, Intel Architect
+* QAT
+  * Intel C627 chipset
+  * 100+ gbps bulk crypto
+  * 100kops RSA 2k decrypt
+* NGINX changes
+  * deflate calls eat up CPU
+  * ```ngx_http_gzip_filter_module.c``` deflate calls move to hardware
+  * ```ngx_http_gzip_filter_add_data``` crc32 expensive software calculation
+* QATzip library changes
+  * If the hardware exists, the library talks to the driver and uses it
+  * Otherwise, uses software
+* Results
+  * Pages: cnn 137231 bytes, timesofindia 372028 bytes, shanghaidaily 64137
+  * Concatenate 573396 bytes
+  * ```ab -n 32000 -c 24 http://192.168.1.1/file & x3```
+  * 2x Intel Xeon Gold 6150 2.7 GHz, C627 Chip B1, DDR4 2133 MHz 192 GB
+  * 72 cores
+  * 10GE - no comp: 45s, SW comp: 17s, QATzip: 13s
+  * 10GE - no comp: 1 percent CPU, sw: 80, QATzip: 12
+  * 40GE - similar, just with shorter page load times
+
+# Optimizing Webservers for High Throughput and Low Latency
+
+* Alexey Ivanov, SRE, Dropbox
+
+# Better Metrics Through Scripting
+
+* Matthew Williams, Evangelist, DataDog [@technovangelist](https://twitter.com/technovangelist)
+* [Slides](http://dtdg.co/nginx17deck)
+* Pull metrics from localhost/nginx_status/, for example
+* Lua / OpenResty http://dtdg.co/nginx17-lua
+  * Mature software with an active community
+* nginScript
+  * Like JavaScript
+  * Created by NGINX
+* [Reloader](http://dtdg.co/nginx17-reload)
+* [Aggregated Stats](http://luameter.com)
+* [RestyStat](http://dtdg.co/nginx17-restystat)
+* [ngx_lua_datadog(http://dtdg.co/nginx17-luadatadog)
+* [nginx-dogstatsd](http://dtdg.co/nginx17-dogstatsd)

@@ -134,5 +134,6 @@
 * [Reloader](http://dtdg.co/nginx17-reload)
 * [Aggregated Stats](http://luameter.com)
 * [RestyStat](http://dtdg.co/nginx17-restystat)
-* [ngx_lua_datadog(http://dtdg.co/nginx17-luadatadog)
+* [ngx_lua_datadog](http://dtdg.co/nginx17-luadatadog)
 * [nginx-dogstatsd](http://dtdg.co/nginx17-dogstatsd)
+* [Other](http://dtdg.co/nginx17-awesome)

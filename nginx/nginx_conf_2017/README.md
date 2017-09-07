@@ -119,7 +119,8 @@
 
 # Optimizing Webservers for High Throughput and Low Latency
 
-* Alexey Ivanov, SRE, Dropbox
+* Alexey Ivanov / [@SaveTheRbtz](https://twitter.com/SaveTheRbtz), SRE, Dropbox
+* [Blogpost](https://blogs.dropbox.com/tech/2017/09/optimizing-web-servers-for-high-throughput-and-low-latency/)
 
 # Better Metrics Through Scripting
 
@@ -137,3 +138,14 @@
 * [ngx_lua_datadog](http://dtdg.co/nginx17-luadatadog)
 * [nginx-dogstatsd](http://dtdg.co/nginx17-dogstatsd)
 * [Other](http://dtdg.co/nginx17-awesome)
+
+# NGINX and IoT / MQTT
+
+* [Liam Crilly / @liamcrilly](https://twitter.com/liamcrilly), Director of Product Management, NGINX, Inc.
+* [MQTT](http://mqtt.org)
+
+# NGINX+ and Highly Available WebSockets in an Auto-Scaling AWS Environment
+
+* Patrick Synor, Technical Manager, Linux Operations, SolvIT Inc.
+* AWS did not support WebSocket until ALB in 2016
+* NGINX supported WebSocket since 2013

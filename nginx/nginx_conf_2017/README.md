@@ -119,7 +119,8 @@
 
 # Optimizing Webservers for High Throughput and Low Latency
 
-* Alexey Ivanov, SRE, Dropbox
+* Alexey Ivanov / [@SaveTheRbtz](https://twitter.com/SaveTheRbtz), SRE, Dropbox
+* [Blogpost](https://blogs.dropbox.com/tech/2017/09/optimizing-web-servers-for-high-throughput-and-low-latency/)
 
 # Better Metrics Through Scripting
 

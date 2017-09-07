@@ -257,7 +257,15 @@ alessfg
   * Single global address for all regions
 * [NGINX+ on GCP](https://goo.gl/mUkRuA)
 
-# Monitoring with Amplify
+# Lessons Learned Embracing DevOps + Security
+
+* Zane Lackey, [@zanelackey](https://twitter.com/zanelackey), CSO, Co-Founder, Signal Sciences
+* First head of security at Etsy
+* Security shifts from gatekeeper to enabling teams' service security by default
+* DevSecOps deals with shortened deployment cycles
+* Security must make it to the development process, rather than outsourced to Security group
+* Bug bounties make for a good feedback loop
+* Bug bounties augment penitration tests
 
 # PKI / TLS
 

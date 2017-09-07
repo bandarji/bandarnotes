@@ -1,3 +1,5 @@
-# bandarnotes
+# lekhan
 
-Miscellaneous notes and code snippets
+My collection of miscellaneous writings comprises
+this repository.
+

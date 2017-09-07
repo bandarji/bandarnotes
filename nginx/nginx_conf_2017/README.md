@@ -149,3 +149,75 @@
 * Patrick Synor, Technical Manager, Linux Operations, SolvIT Inc.
 * AWS did not support WebSocket until ALB in 2016
 * NGINX supported WebSocket since 2013
+
+# Thursday
+
+# NGINX Unit
+
+Run multiple application languages and language versions off a server
+configurable by JSON/REST. Never reload a service again.
+
+* [NGINX Unit product page](https://www.nginx.com/products/nginx-unit/)
+* [NGINX Unit site](http://unit.nginx.org/)
+
+# The Business of Open Source
+
+* Elsie Phillips / [@elsiephilly](https://twitter.com/elsiephilly), CoreOS
+* Myths
+  * OSS is free (as in beer)
+  * "Linux is only free if your time has no value." -- jwz
+  * The community will do your work for you
+  * Companies contribute for altruistic reasons
+* Complementaries
+  * If you like cereal, you buy a lot of cerial on sale, but milk no matter what
+  * Sun could give away Java, because it meant more hardware sales
+* Monetizing OSS
+  * Consulting
+  * Training
+  * Indemnity
+  * Create a marketplace
+    * Unity for gaming
+    * Creators need to retain content ownership, thoug
+  * Open Core, but don't limit features (NGINX vs NGINX+)
+
+# Building an Exothermic Community
+
+* Kara Sowles / [@feynudibranch](https://twitter.com/feynudibranch), Puppet
+* User bases are endothermic. Company makes widget. User base consumes it.
+* User base can become an exothermic community
+  * Produce code
+  * Generate conversation online
+  * Give talks
+  * Norms / codes of conduct / tone / methodology / practices / problem solving
+* People may not see all the inputs
+  * Bug reports
+  * Teachers, leaders,
+* Activation energy
+  * Minimum energy required to start a reaction
+  * Investment worth it?
+* Needed for happiness and to stay engaged
+  * Meaningful vision of the future
+  * Sense of purpose
+  * Great relationships
+
+# NGINX [Ampify](https://amplify.nginx.com/)
+
+* Metrics out of the box
+* 12+ months in beta
+* Two thousand accounts
+* 1B metrics collected
+
+# Open Source Project Deep Dive
+
+# Running NGINX on GCP
+
+# Monitoring with Amplify
+
+# PKI / TLS
+
+# Monitoring Microservices Minus the Migraine
+
+# Fun with Health Checks Using NGINX+ and Docker
+
+# Building a Powerful, Efficient and Highly Available Caching Layer with NGINX
+

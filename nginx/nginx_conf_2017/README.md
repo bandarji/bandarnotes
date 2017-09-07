@@ -155,7 +155,7 @@
 # NGINX Unit
 
 Run multiple application languages and language versions off a server
-configurable by JSON/REST. Never reload a service again.
+configurable by JSON/REST. No more configuration files.
 
 * [NGINX Unit product page](https://www.nginx.com/products/nginx-unit/)
 * [NGINX Unit site](http://unit.nginx.org/)
@@ -207,7 +207,41 @@ configurable by JSON/REST. Never reload a service again.
 * Two thousand accounts
 * 1B metrics collected
 
-# Open Source Project Deep Dive
+# NGINX Unit Deep Dive Demo
+
+```
+cd /srv/unit/
+./configure --help
+./configure php
+./configure python
+./configure python --config=python3.5-config
+./configure go
+make all
+ls -l build/unitd build/*.unit.so
+./build/unitd --help
+./build/unitd --control 127.0.0.1:8443
+ps aufx | tail
+curl 127.0.0.1:8443
+# add just phpinfo() to an index.php, create config file
+curl -X PUT -d@demo/start.json 127.0.0.1:8443
+curl -X PUT -d@demo/python.json '127.0.0.1:8443/applications/python_sample'
+# make this py app run on same listening port
+curl -X PUT -d'"python_sample" '127.0.0.1:8443/listeners/*:8300/application'
+curl http://127.0.0.1:8{3..5}0{0,1}/
+curl -X DELETE '127.0.0.1:8443/listeners/*:8300'
+curl -X DELETE '127.0.0.1:8443/applications/phpinfo'
+```
+
+*Sample Application*
+```
+import sys
+def application(environ, start_response):
+    body = sys.version.encode('utf-8')
+    status = '200 OK'
+    headers = [('Content-type', 'text/plain')]
+    start_response(status, headers)
+    return [body]
+```
 
 # Running NGINX on GCP
 

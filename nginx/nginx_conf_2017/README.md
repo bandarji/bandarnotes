@@ -243,7 +243,19 @@ def application(environ, start_response):
     return [body]
 ```
 
+alessfg
+
 # Running NGINX on GCP
+
+* Mike Graboski, Sales Engineer, Google
+* Stackdriver metrics
+  * Connections: active, reading, writing, waiting
+  * Request counts
+* Networking
+  * Proxies: L4, L7, SSL
+  * Route requests to closest NGINX VM
+  * Single global address for all regions
+* [NGINX+ on GCP](https://goo.gl/mUkRuA)
 
 # Monitoring with Amplify
 

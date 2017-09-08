@@ -144,6 +144,15 @@ server {
 }
 ```
 
+## A Test
+
+```
+$ ( for i in {1..1000} ; do curl -sk -u sje:xyz http://localhost:8080/ ; done ) | sort | uniq -c
+    333 this is backend1
+    333 this is backend 2
+    334 this is backend3
+```
+
 # Agenda, Part II
 
 * Routing connections

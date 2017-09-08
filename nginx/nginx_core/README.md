@@ -118,16 +118,19 @@ server {
 server {
     listen 8081;
     root /data/backend1;
+    status_zone us;
 }
 
 server {
     listen 8082;
     root /data/backend2;
+    status_zone us;
 }
 
 server {
     listen 8083;
     root /data/backend3;
+    status_zone uk;
 }
 ```
 
@@ -135,9 +138,16 @@ server {
 
 ```
 upstream myServers {
+    zone backend 64k;
     server 127.0.0.1:8081;
     server 127.0.0.1:8082;
     server 127.0.0.1:8083;
+}
+
+match health_conditions {
+    status 200-399;
+    header Content-Type = text/html;
+    body !~ maintenance;
 }
 
 log_format uplog "$request $status $request_uri $upstream_addr";
@@ -147,17 +157,37 @@ server {
     root /home/student1/public_html;
     access_log /var/log/nginx/up.access.log uplog;
     error_log /var/log/nginx/upstream.error.log info;
+
     location / {
         proxy_pass http://myServers;
+        health_check match=health_conditions fails=2 uri=/health/test.html;
     }
+}
+
+server {
+    listen 9090;
+    root /usr/share/nginx/html;
+
+    location /upstream_conf {
+        upstream_conf;
+    }
+
+    location = /status {
+        status;
+    }
+
 }
 ```
 
-## A Test
+## Tests
 
 ```
 $ ( for i in {1..1000} ; do curl -sk -u sje:xyz http://localhost:8080/ ; done ) | sort | uniq -c
     333 this is backend1
     333 this is backend 2
     334 this is backend3
+```
+
+```
+curl -s -o /dev/null -w "%{http_code}" http://<external ip>/\?${1..100}
 ```

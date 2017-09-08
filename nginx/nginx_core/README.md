@@ -1,4 +1,4 @@
-# Course Agenda
+# Agenda, Part I
 
 * Overview
   * 2002, Igor Sysov, Rambler
@@ -12,6 +12,15 @@
 * Logging
 * Security
 * Variables
+
+# Agenda, Part II
+
+* Routing connections
+* Load balancing
+* Caching
+* Compression
+* Dynamic configuration
+* Installation
 
 ## Basic Commands
 
@@ -152,12 +161,3 @@ $ ( for i in {1..1000} ; do curl -sk -u sje:xyz http://localhost:8080/ ; done ) 
     333 this is backend 2
     334 this is backend3
 ```
-
-# Agenda, Part II
-
-* Routing connections
-* Load balancing
-* Caching
-* Compression
-* Dynamic configuration
-* Installation

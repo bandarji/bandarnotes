@@ -35,6 +35,8 @@ nginx -T        #display current config
 ## ```server1.conf```
 
 ```
+proxy_cache_path /data/nginx/cache levels=1:2 keys_zone=img_cache:20m inactive=5m;
+
 map $uri $is_redirect {
     default   0;
     /test1    1;
@@ -48,6 +50,12 @@ server {
 
     error_log /var/log/nginx/server1.error.log info;
     access_log /var/log/nginx/server1.access.log combined;
+
+    proxy_cache_key $scheme$host$request_uri;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
     auth_basic "protected";
     auth_basic_user_file /etc/nginx/htpasswd;
 
@@ -68,6 +76,8 @@ server {
 
     location /application1 {
         auth_basic off;
+        proxy_cache img_cache;
+        proxy_cache_valid 10m;
         proxy_pass http://localhost:90/sampleApp/;
     }
 
@@ -137,6 +147,8 @@ server {
 ## ```myServers.conf```
 
 ```
+proxy_cache_path /data/nginx/cache2 levels=1:2 keys_zone=upstreamCache:10m max_size=60m inactive=60m;
+
 upstream myServers {
     zone backend 64k;
     server 127.0.0.1:8081;
@@ -157,6 +169,11 @@ server {
     root /home/student1/public_html;
     access_log /var/log/nginx/up.access.log uplog;
     error_log /var/log/nginx/upstream.error.log info;
+
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    add_header X-Proxy-Cache $upstream_cache_status;
+
 
     location / {
         proxy_pass http://myServers;

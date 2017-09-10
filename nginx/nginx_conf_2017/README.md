@@ -299,6 +299,7 @@ def application(environ, start_response):
 # Building a Powerful, Efficient and Highly Available Caching Layer with NGINX
 
 * Kevin Jones / [@webopsx](https://twitter.com/webopsx), Technical Solutions Architect, NGINX, Inc.
+* [HA Content Caching with NGINX](https://www.slideshare.net/KevinJones62/high-availability-content-caching-with-nginx)
 * People expect website loads under two seconds
 * Default: ```proxy_cache_key$ $scheme$proxy_host$request_uri```
 * NGINX can use stale data when backends return 5xx status

@@ -1,21 +1,16 @@
 # NGINX Conference 2017
 
-# Vendors
-
-* CloudFlare
-* Intel
-* Red Hat
-* DataDog
-* Mashape
-
 # Openning Keynote, NGINX CEO, Gus Robertson
 
-* Istio
+* Istio microservices management integration
 * Data intelligence
   * Too much data
   * Not enough intelligence
 * Current self-driving cars produce 10GB data every mile driven
 * NGINX Application Platform
+  * NGINX Controller
+  * NGINX Unit
+  * NGINX+
 
 # NGINX Product Announcements
 
@@ -55,7 +50,7 @@
 
 # Application and API Security
 
-* Stepan Ilyin, Wallarm Co-founder
+* Stepan Ilyin / [@stepah](https://twitter.com/stepah), Wallarm Co-founder
 * Free: mod_security WAF
   * Blocks top 10 OWASP
   * Simple
@@ -243,8 +238,6 @@ def application(environ, start_response):
     return [body]
 ```
 
-alessfg
-
 # Running NGINX on GCP
 
 * Mike Graboski, Sales Engineer, Google
@@ -269,7 +262,7 @@ alessfg
 
 # PKI / TLS
 
-* Denis Gundarev, Senior Application Architect, VMWare
+* Denis Gundarev / [@fdwl](https://twitter.com/fdwl), Senior Application Architect, VMWare
 * Think of a certificate like a drivers license
   * Identity
   * Dates: issuance, expiration

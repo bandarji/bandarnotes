@@ -2,17 +2,39 @@
 
 ## Table of Contents
 
-1. Decorators
+### Decorators
   * [Time Functions](#time-functions)
-1. Dictionaries
+### Dictionaries
   * [Remove Keys](#remove-keys)
-1. Numbers
+### HTTP
+  * [Read Web Page](#http-get)
+  * [Simple Web Server](#http-web-server)
+### Numbers
   * [Decimal From Binary](#decimal-from-binary)
-1. Printing
+  * [Print Leading Zeros](#print-leading-zeros)
+### Printing
   * [ANSI Colors](#ansi-colors)
   * [Pretty Printing](#pretty-printing)
-1. [Random Notes](notes.py)
+  ### Subprocess
+  * [Run external command](#subprocess-call)
+  * [Run external command (full)](#subprocess-response)
+### Tests
+  * [File exists?](#file-existence)
+  * [Variable exists?](#variable-existence)
+  * [Variable iterable?](#variable-iterable)
 
+
+[Random Notes](notes.py)
+
+## Print Leading Zeros
+
+```python
+# '0001'
+"1".zfill(4)
+"%04d" % 1
+"{:>04}".format("1")
+
+```
 ----
 
 ## ANSI Colors
@@ -37,6 +59,27 @@ print(bcolors.HIGHGREEN + 'OK' + bcolors.ENDC)
 
 ```python
 int('101010101', 2)
+```
+
+## File Existence
+
+```python
+os.path.isfile(filename)
+```
+
+## HTTP GET
+
+```python
+urllib2.urlopen("http://www.example.com/").read()
+```
+
+## HTTP Web Server
+
+```bash
+# py v2
+$ python -m SimpleHTTPServer 8080
+# py v3
+$ python -m http.server 8080
 ```
 
 ## Remove Keys
@@ -73,4 +116,42 @@ a = [ # ... ]
 d = { # ... }
 pretty(a)
 pretty(d)
+```
+
+## Subprocess Call
+
+```python
+subprocess.call( ["program", "arg1", "arg2"] )
+cmd = "program arg1 arg2"
+if cmd: subprocess.call(cmd.split())
+```
+
+## Subprocess Response
+
+```python
+proc = subprocess.Popen(["ls", "-al"],
+                        stdin=subprocess.PIPE,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE)
+std_input = "/etc/"
+out, err = proc.communicate(std_input)
+return_code = proc.returncode
+```
+
+## Variable Existence
+
+```python
+if 'a_var' in locals() or 'a_var' in globals(): print("found")
+if hasattr(an_object, 'attribute_name'): print("found")
+```
+
+## Variable Iterable
+
+```python
+def is_iterable(a_variable):
+    try:
+        iter(a_variable)
+    except TypeError:
+        return False
+    return True
 ```

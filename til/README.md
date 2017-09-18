@@ -15,4 +15,5 @@ quick and dirty Gist.
 ## Systems
 
 * [Bash Prompt For Git](til_bash_prompt_for_git.md)
-* [Terse tcpdump output](til_terse_tcpdump.md)
+* [Bash while Loop With SSH](til_while_loop_ssh.md)
+* [Terse tcpdump Output](til_terse_tcpdump.md)

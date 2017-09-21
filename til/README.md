@@ -14,6 +14,7 @@ quick and dirty Gist.
 
 ## Systems
 
+* [Bash Colored Output](til_bash_colors.md)
 * [Bash Prompt For Git](til_bash_prompt_for_git.md)
 * [Bash while Loop With SSH](til_while_loop_ssh.md)
 * [Terse tcpdump Output](til_terse_tcpdump.md)

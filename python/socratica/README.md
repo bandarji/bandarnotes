@@ -1,6 +1,6 @@
 # Socratica Python Series
 
-1. [Hello, World](01_hello_world.md)
+1. [Hello World](01_hello_world.md)
 1. [Strings](02_strings.md)
 1. [Numbers](03_numbers.md)
 1. [Arithmetic](04_arithmetic.md)

@@ -33,7 +33,7 @@ type(c)
 c
 # 2147483648L <== see the 'L', for 'long'
 print(c)
-2147483648 <== print will not display the 'L'
+2147483648 # <== print will not display the 'L'
 ```
 
 ```python

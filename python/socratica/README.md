@@ -24,3 +24,4 @@
 1. [JSON](20_json.md)
 1. [Lambda Expressions / Anonymous Functions](21_lambda.md)
 1. [Map, Filter and Reduce](22_map_filter_reduce.md)
+1. [Sorting](23_sorting.md)

@@ -12,10 +12,11 @@
 ### Numbers
   * [Decimal From Binary](#decimal-from-binary)
   * [Print Leading Zeros](#print-leading-zeros)
+  * [Roll Die](#roll-die)
 ### Printing
   * [ANSI Colors](#ansi-colors)
   * [Pretty Printing](#pretty-printing)
-  ### Subprocess
+### Subprocess
   * [Run external command](#subprocess-call)
   * [Run external command (full)](#subprocess-response)
 ### Tests
@@ -116,6 +117,15 @@ a = [ # ... ]
 d = { # ... }
 pretty(a)
 pretty(d)
+```
+
+## Roll Die
+
+```python
+from random import random
+roll_die = lambda sides: int(random() * sides) + 1
+roll_die(6)
+roll_die(20)
 ```
 
 ## Subprocess Call

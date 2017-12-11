@@ -8,6 +8,8 @@ means 'writings' in Hindi.
 # Coding
 
 * [Python](python/README.md)
+  * [Reddit](python/reddit/README.md) - I helped others on /r/learnpython
+  * [Socratica](python/socratica/README.md) - Notes on the Youtube videos
 * Style Guides
   * [Bash](style_guide_bash.md)
   * [Python](style_guide_python.md)

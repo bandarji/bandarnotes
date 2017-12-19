@@ -25,3 +25,5 @@
 1. [Lambda Expressions / Anonymous Functions](21_lambda.md)
 1. [Map, Filter and Reduce](22_map_filter_reduce.md)
 1. [Sorting](23_sorting.md)
+1. [Text Files](text_files.md)
+1. [Unit Tests](unit_tests.md)

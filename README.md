@@ -7,6 +7,7 @@ means 'writings' in Hindi.
 
 # Coding
 
+* [AWK one-liners](awk_one_liners.md)
 * [Python](python/README.md)
   * [Reddit](python/reddit/README.md) - I helped others on /r/learnpython
   * [Socratica](python/socratica/README.md) - Notes on the Youtube videos
@@ -24,3 +25,4 @@ means 'writings' in Hindi.
 # Other
 
 * [Useful Links](links.md)
+

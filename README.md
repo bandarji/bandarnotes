@@ -24,5 +24,5 @@ means 'writings' in Hindi.
 
 # Other
 
+* [Bash Functions](bash_functions.md)
 * [Useful Links](links.md)
-

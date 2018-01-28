@@ -2,6 +2,8 @@
 
 ## Table of Contents
 
+### Debugging
+  * [Python Debugger](#python-debugger)
 ### Decorators
   * [Time Functions](#time-functions)
 ### Dictionaries
@@ -24,8 +26,24 @@
   * [Variable exists?](#variable-existence)
   * [Variable iterable?](#variable-iterable)
 
+* [Random Notes](notes.py)
 
-[Random Notes](notes.py)
+## Python Debugger
+
+```python
+import pdb; pdb.set_trace()
+'''
+h # help
+s # step
+n # next
+unt # until
+r # return
+c # continue
+j LINE # jump to line number without executing
+l # list source code
+p EXPR # eval expression
+'''
+```
 
 ## Print Leading Zeros
 

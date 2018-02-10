@@ -12,6 +12,8 @@ Mostly on /r/learnpython
 | [Input not Working](https://www.reddit.com/r/learnpython/comments/7i4ud9/a_newbie_here_help_figure_out_whats_wrong_with/) | [input_num.py](input_num.py) |
 | [Percentage of Vowels](https://www.reddit.com/r/learnpython/comments/7iwztz/homework_with_percentages/) | [vowels_percent.py](vowels_percent.py) |
 | [Two-dimensional Array](https://www.reddit.com/r/learnpython/comments/7qf8oc/create_a_matrix_of_alternating_zeroes/) | [2d_array.py](2d_array.py) |
+| [Live Off Interest](https://www.reddit.com/r/learnpython/comments/7wi52f/help_with_python_program_for_school/) | [calc_months.py](calc_months.py) |
+| [Favorite Color Registry](https://www.reddit.com/r/learnpython/comments/7whx65/help_with_a_challenge_i_have/) | [color_registry.py](color_registry.py) |
 
 ## Information From Others
 

@@ -16,6 +16,7 @@ Mostly on /r/learnpython
 | [Favorite Color Registry](https://www.reddit.com/r/learnpython/comments/7whx65/help_with_a_challenge_i_have/) | [color_registry.py](color_registry.py) |
 | [Funky Typing](https://www.reddit.com/r/learnpython/comments/7yazo3/when_i_print_two_strings_how_can_i_make_one_print/) | [funky_typing.py](funky_typing.py) |
 | [Guess Die Roll](https://www.reddit.com/r/learnpython/comments/7yfemw/this_dice_game_doesnt_work/) | [die_roll.py](die_roll.py) |
+| [Primes to 100](https://www.reddit.com/r/learnpython/comments/7yh454/a_program_in_2_parts_finding_if_a_number_is_prime/) | [primes_to_100.py](primes_to_100.py) |
 
 ## Information From Others
 

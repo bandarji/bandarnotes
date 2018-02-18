@@ -14,6 +14,8 @@ Mostly on /r/learnpython
 | [Two-dimensional Array](https://www.reddit.com/r/learnpython/comments/7qf8oc/create_a_matrix_of_alternating_zeroes/) | [2d_array.py](2d_array.py) |
 | [Live Off Interest](https://www.reddit.com/r/learnpython/comments/7wi52f/help_with_python_program_for_school/) | [calc_months.py](calc_months.py) |
 | [Favorite Color Registry](https://www.reddit.com/r/learnpython/comments/7whx65/help_with_a_challenge_i_have/) | [color_registry.py](color_registry.py) |
+| [Funky Typing](https://www.reddit.com/r/learnpython/comments/7yazo3/when_i_print_two_strings_how_can_i_make_one_print/) | [funky_typing.py](funky_typing.py) |
+| [Guess Die Roll](https://www.reddit.com/r/learnpython/comments/7yfemw/this_dice_game_doesnt_work/) | [die_roll.py](die_roll.py) |
 
 ## Information From Others
 

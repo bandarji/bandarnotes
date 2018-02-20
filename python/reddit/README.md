@@ -17,6 +17,7 @@ Mostly on /r/learnpython
 | [Funky Typing](https://www.reddit.com/r/learnpython/comments/7yazo3/when_i_print_two_strings_how_can_i_make_one_print/) | [funky_typing.py](funky_typing.py) |
 | [Guess Die Roll](https://www.reddit.com/r/learnpython/comments/7yfemw/this_dice_game_doesnt_work/) | [die_roll.py](die_roll.py) |
 | [Primes to 100](https://www.reddit.com/r/learnpython/comments/7yh454/a_program_in_2_parts_finding_if_a_number_is_prime/) | [primes_to_100.py](primes_to_100.py) |
+| [Magic Eight Ball](https://www.reddit.com/r/learnpython/comments/7yj0kj/noob_question_about_magic8ballpy_in_automate_the/) | [eight_ball.py](eight_ball.py) |
 
 ## Information From Others
 

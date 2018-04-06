@@ -27,6 +27,7 @@
   * [Variable iterable?](#variable-iterable)
 
 * [Random Notes](notes.py)
+* [Terminal Tables](terminal_tables.md)
 
 ## Python Debugger
 

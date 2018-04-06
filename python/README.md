@@ -18,6 +18,9 @@
 ### Printing
   * [ANSI Colors](#ansi-colors)
   * [Pretty Printing](#pretty-printing)
+  * [Wrapping Text](#wrapping-text)
+### Sorting
+  * [Unique elements in order of encounter](#unique-element-sort)
 ### Subprocess
   * [Run external command](#subprocess-call)
   * [Run external command (full)](#subprocess-response)
@@ -167,6 +170,14 @@ out, err = proc.communicate(std_input)
 return_code = proc.returncode
 ```
 
+## Unique Element Sort
+
+```python
+s = 'yellowwood door reeffecting'
+print(sorted(set(s), key=s.index))
+# ['y', 'e', 'l', 'o', 'w', 'd', ' ', 'r', 'f', 'c', 't', 'i', 'n', 'g']
+```
+
 ## Variable Existence
 
 ```python
@@ -183,4 +194,11 @@ def is_iterable(a_variable):
     except TypeError:
         return False
     return True
+```
+
+## Wrapping Text
+
+```python
+long_ass_string = "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non-numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur"
+    print("\n".join(textwrap.wrap(long_ass_string, width=60)))
 ```

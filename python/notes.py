@@ -203,3 +203,8 @@ my_list = [n for n in nums]
 my_list = filter(lambda n: n%2 == 0, nums)
 
 my_dict = {name: hero for name, hero in zip(names, heros) if name != 'Peter'}
+
+[i * j for i in range(3) for j in range(3)]
+# [0, 0, 0, 0, 1, 2, 0, 2, 4]
+[i * j for i, j in itertools.product(range(3), range(3))]
+# [0, 0, 0, 0, 1, 2, 0, 2, 4]

@@ -22,6 +22,7 @@ Mostly on /r/learnpython
 | [Run-length Encoder](https://www.reddit.com/r/learnpython/comments/81it9t/run_length_encoding_of_a_list/) | [rle.py](rle.py) |
 | [Average Dictionary Values](https://www.reddit.com/r/learnpython/comments/82e9pq/averaging_values_from_within_a_list_of/) | [attribute_averages.py](attribute_averages.py) |
 | [Palindrome](https://www.reddit.com/r/learnpython/comments/82ucgu/calling_an_input_inside_a_def_function/) | [palindrome.py](palindrome.py) |
+| Word Morphing | [word_morph.py](word_morph.py) |
 
 ## Information From Others
 

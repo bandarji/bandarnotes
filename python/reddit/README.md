@@ -23,6 +23,23 @@ Mostly on /r/learnpython
 | [Average Dictionary Values](https://www.reddit.com/r/learnpython/comments/82e9pq/averaging_values_from_within_a_list_of/) | [attribute_averages.py](attribute_averages.py) |
 | [Palindrome](https://www.reddit.com/r/learnpython/comments/82ucgu/calling_an_input_inside_a_def_function/) | [palindrome.py](palindrome.py) |
 | Word Morphing | [word_morph.py](word_morph.py) |
+| Carpark Simulation | [carpark.py](carpark.py) |
+| Donut Shoppe | [dinos_donuts.py](dinos_donuts.py) |
+| Cascading Digits | [cascading_digits.py](cascading_digits.py) |
+| Dungeoncrawler Equipment | [equip.py](equip.py) |
+| Formatting Columns | [formatting_columns.py](formatting_columns.py) |
+| Timecard | [hours_worked.py](hours_worked.py) |
+| Bits to Value | [list_of_bits.py](list_of_bits.py) |
+| Strip comments | [list_strip.py](list_strip.py) |
+| Freezing Periods of Time | [long_freezing.py](long_freezing.py) |
+| Lottery Winning Numbers | [lotto.py](lotto.py) |
+| Guess the Number Game | [num_guess.py](num_guess.py) |
+| Average Numbers | [nums_avg.py](nums_avg.py) |
+| "q" Words Without "qu" | [q_sans_qu.py](q_sans_qu.py) |
+| Letter Frequency | [letter_distribution.py](letter_distribution.py) |
+| Replace Numbers With Words | [exchange_words_for_nums.py](exchange_words_for_nums.py) |
+| Rock, Paper, Scissors (Simple) | [rock_paper_scissors.py](rock_paper_scissors.py) |
+| Functions in a Dictionary | [funcs_dict.py](funcs_dict.py) |
 
 ## Information From Others
 

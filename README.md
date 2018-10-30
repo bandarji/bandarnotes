@@ -9,6 +9,7 @@ means 'writings' in Hindi.
 
 * [AWK one-liners](awk_one_liners.md)
 * [Python](python/README.md)
+  * [Problems to Avoid](python/pyproblems.md) - Common issues when coding
   * [Reddit](python/reddit/README.md) - I helped others on /r/learnpython
   * [Socratica](python/socratica/README.md) - Notes on the Youtube videos
 * Style Guides

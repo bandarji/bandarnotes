@@ -1,18 +1,20 @@
-# Today I Learned
+Today I Learned
+===============
 
 Let us post interesting, short commands and information. Think of this as our
 quick and dirty Gist.
 
-## Programming
+# Programming
 
+* [Big-O Notation Analogies](til_bigo.md)
 * [Git File History](til_git_file_history.md)
 * [Search our Git Repository](til_search_our_repo.md)
 
-## Services
+# Services
 
 * [Nginx Configuration File Syntax Check](til_nginx_syntax_check.md)
 
-## Systems
+# Systems
 
 * [Bash Colored Output](til_bash_colors.md)
 * [Bash Prompt For Git](til_bash_prompt_for_git.md)

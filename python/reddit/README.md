@@ -40,6 +40,7 @@ Mostly on /r/learnpython
 | Replace Numbers With Words | [exchange_words_for_nums.py](exchange_words_for_nums.py) |
 | Rock, Paper, Scissors (Simple) | [rock_paper_scissors.py](rock_paper_scissors.py) |
 | Functions in a Dictionary | [funcs_dict.py](funcs_dict.py) |
+| Count random numbers | [count_rand.py](count_rand.py)
 
 ## Information From Others
 

@@ -9,7 +9,6 @@ def subset_sum(numbers, count, total):
         bool: whether numbers contains a subset of elements which add up to total
     """
     numbers.sort() # inefficient / should perform only once / meh
-    number = numbers[-1] # target the largest value
     candidates = [[]] # create a list of lists
     # Step through all numbers, keeping track of our index (i)
     for i, element in enumerate(numbers):

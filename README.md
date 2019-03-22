@@ -10,6 +10,7 @@ means 'writings' in Hindi.
 * [AWK one-liners](awk_one_liners.md)
 * [Python](python/README.md)
   * [Problems to Avoid](python/pyproblems.md) - Common issues when coding
+  * [Python for Network Engineers](python/pynet/README.md)
   * [Reddit](python/reddit/) - Code snippets to and from Reddit
   * [Socratica](python/socratica/README.md) - Notes on the Youtube videos
 * Style Guides

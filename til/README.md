@@ -19,4 +19,5 @@ quick and dirty Gist.
 * [Bash Colored Output](til_bash_colors.md)
 * [Bash Prompt For Git](til_bash_prompt_for_git.md)
 * [Bash while Loop With SSH](til_while_loop_ssh.md)
+* [Format USB stick as FAT16 from Mac OS X](til_macos_fat16.md)
 * [Terse tcpdump Output](til_terse_tcpdump.md)
